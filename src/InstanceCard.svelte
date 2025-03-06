@@ -32,23 +32,24 @@
       ></path>
     </svg>
     <div class="ml-2">
-      <h2 class="text-white font-semibold">
-        {server.name}
-
+      <div class="flex">
+        <h2 class="text-white font-semibold">
+          {server.name}
+        </h2>
         {#each server.tags as tag}
           {@const lowerTag = tag.toLowerCase()}
           <div
             class="inline-flex items-center rounded-full border transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-secondary/80 ml-1.5 py-0 px-1 text-[8px] pointer-events-none font-bold
-            {lowerTag === 'running' ? 'bg-green-500 text-white' : ''}
-            {lowerTag === 'stopped' ? 'bg-red-500 text-white' : ''}
+            {lowerTag === 'running' ? 'bg-green-500 text-black' : ''}
+            {lowerTag === 'stopped' ? 'bg-red-500 text-black' : ''}
             {lowerTag !== 'running' && lowerTag !== 'stopped'
-              ? 'bg-sky-300 text-sky-900'
+              ? 'bg-sky-500 text-black'
               : ''}"
           >
             {tag.toUpperCase()}
           </div>
         {/each}
-      </h2>
+      </div>
       <p class="text-zinc-400 text-sm">{server.description}</p>
     </div>
   </div>
