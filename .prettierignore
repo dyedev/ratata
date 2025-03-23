@@ -1,1 +1,4 @@
 flake.lock
+yarn.lock
+.yarn
+.pnp.*
