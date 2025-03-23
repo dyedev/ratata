@@ -41,7 +41,7 @@
     </div>
   </div>
   <div class="flex items-center justify-between md:justify-end">
-    {#each server.tags as tag}
+    {#each server.tags as tag (tag)}
       {@const lowerTag = tag.toLowerCase()}
       <div
         class="
