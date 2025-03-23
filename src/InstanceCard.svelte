@@ -12,9 +12,9 @@
 </script>
 
 <div
-  class="flex flex-col md:grid-cols-2 gap-4 bg-zinc-900 border border-zinc-800 p-2 md:p-4 rounded-lg hover:animate-pulse hover:border-zinc-600 transition-colors duration-200 ease-in-out cursor-pointer"
+  class="flex flex-wrap md:grid-cols-2 gap-4 bg-zinc-900 border border-zinc-800 p-2 md:p-4 rounded-lg hover:border-zinc-600 transition-colors duration-200 ease-in-out cursor-pointer p-4"
 >
-  <div class="flex items-center mb-2 pt-2 pl-2.5">
+  <div class="flex items-center">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
@@ -25,7 +25,7 @@
       stroke-width="2"
       stroke-linecap="round"
       stroke-linejoin="round"
-      class="h-4 w-4 text-[#58a6ff] mr-3"
+      class="text-[#58a6ff] h-8 w-8 mr-2"
     >
       <path
         d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"
@@ -36,25 +36,38 @@
         <h2 class="text-white font-semibold">
           {server.name}
         </h2>
-        {#each server.tags as tag}
-          {@const lowerTag = tag.toLowerCase()}
-          <div
-            class="inline-flex items-center rounded-full border transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-secondary/80 ml-1.5 py-0 px-1 text-[8px] pointer-events-none font-bold
-            {lowerTag === 'running' ? 'bg-green-500 text-black' : ''}
-            {lowerTag === 'stopped' ? 'bg-red-500 text-black' : ''}
-            {lowerTag !== 'running' && lowerTag !== 'stopped'
-              ? 'bg-sky-500 text-black'
-              : ''}"
-          >
-            {tag.toUpperCase()}
-          </div>
-        {/each}
       </div>
       <p class="text-zinc-400 text-sm">{server.description}</p>
     </div>
   </div>
+  <div class="flex items-center justify-between md:justify-end">
+    {#each server.tags as tag}
+      {@const lowerTag = tag.toLowerCase()}
+      <div
+        class="
+        inline-flex items-center rounded-full
+        border transition-colors focus:outline-none
+        focus:ring-2 focus:ring-ring focus:ring-offset-2
+        border-transparent hover:bg-secondary/80
+        text-xs pointer-events-none font-bold
+        px-2 py-1 mr-2
+        {lowerTag === 'running' ? 'bg-green-500 text-black' : ''}
+        {lowerTag === 'stopped' ? 'bg-red-500 text-black' : ''}
+        {lowerTag !== 'running' && lowerTag !== 'stopped'
+          ? 'bg-sky-500 text-black'
+          : ''}
+        "
+      >
+        {tag.toUpperCase()}
+      </div>
+    {/each}
+  </div>
+  <!-- Hide extra information on small screens -->
   <div
-    class="flex items-center justify-around text-white space-x-2 mb-2 md:mb-0 px-1 md:px-0"
+    class="flex space-x-4 md:space-x-8 text-sm text-zinc-400 font-semibold
+    hidden lg:flex lg:items-center lg:justify-end"
+    class:opacity-50={server.tags.includes("stopped")}
+    class:opacity-100={server.tags.includes("running")}
   >
     <div class="flex items-center">
       <svg
