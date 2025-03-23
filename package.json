@@ -21,6 +21,13 @@
     "typescript": "5.8.2"
   },
   "dependencies": {
+    "@lucide/svelte": "^0.483.0",
     "svelte": "^5.22.5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "core-js",
+      "svelte-preprocess"
+    ]
   }
 }
