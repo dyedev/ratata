@@ -35,11 +35,8 @@
     "@lucide/svelte": "^0.483.0",
     "svelte": "^5.22.5"
   },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "core-js",
-      "svelte-preprocess"
-    ]
-  },
-  "packageManager": "yarn@4.7.0"
+  "trustedDependencies": [
+    "core-js",
+    "svelte-preprocess"
+  ]
 }
