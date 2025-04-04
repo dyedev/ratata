@@ -6,14 +6,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: docker.io/node:current
+      image: docker.io/node:current@sha256:047d633b358c33f900110efff70b4f1c73d066dec92dd6941c42d26889f69a0e
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+      - uses: actions/setup-node@cdca7365b2dadb8aad0a33bc7601856ffabcc48e # v4
         with:
           node-version: "current"
-      - uses: oven-sh/setup-bun@v2
+      - uses: oven-sh/setup-bun@4bc047ad259df6fc24a6c9b0f9a0cb08cf17fbe5 # v2
         with:
           bun-version: latest
 
