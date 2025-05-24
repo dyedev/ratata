@@ -11,7 +11,7 @@
         "@eslint/js": "9.27.0",
         "@rsbuild/core": "1.3.21",
         "@rsbuild/plugin-svelte": "1.0.10",
-        "@rspack/binding": "1.3.10",
+        "@rspack/binding": "1.3.11",
         "@sveltejs/vite-plugin-svelte": "5.0.3",
         "@sveltejs/vite-plugin-svelte-inspector": "4.0.1",
         "@tailwindcss/postcss": "4.1.7",
@@ -189,25 +189,25 @@
 
     "@rsbuild/plugin-svelte": ["@rsbuild/plugin-svelte@1.0.10", "", { "dependencies": { "svelte-loader": "3.2.4", "svelte-preprocess": "^6.0.3" }, "peerDependencies": { "@rsbuild/core": "1.x" } }, "sha512-505FK9A+AceRJZkczmeIjokxppZEzSl8i+hl0YtvvBm3+m3ZeELkJ0+rfuqxZmzRXY6POwiaNb1H3Bc8dS2fqA=="],
 
-    "@rspack/binding": ["@rspack/binding@1.3.10", "", { "optionalDependencies": { "@rspack/binding-darwin-arm64": "1.3.10", "@rspack/binding-darwin-x64": "1.3.10", "@rspack/binding-linux-arm64-gnu": "1.3.10", "@rspack/binding-linux-arm64-musl": "1.3.10", "@rspack/binding-linux-x64-gnu": "1.3.10", "@rspack/binding-linux-x64-musl": "1.3.10", "@rspack/binding-win32-arm64-msvc": "1.3.10", "@rspack/binding-win32-ia32-msvc": "1.3.10", "@rspack/binding-win32-x64-msvc": "1.3.10" } }, "sha512-9TjO+Ig5U4VqdYWpBsv01n4d2KsgFfdXGIE7zdHXDDbry0avL0J4109ESqSeP9uC+Bi7ZCF53iaxJRvZDflNVQ=="],
+    "@rspack/binding": ["@rspack/binding@1.3.11", "", { "optionalDependencies": { "@rspack/binding-darwin-arm64": "1.3.11", "@rspack/binding-darwin-x64": "1.3.11", "@rspack/binding-linux-arm64-gnu": "1.3.11", "@rspack/binding-linux-arm64-musl": "1.3.11", "@rspack/binding-linux-x64-gnu": "1.3.11", "@rspack/binding-linux-x64-musl": "1.3.11", "@rspack/binding-win32-arm64-msvc": "1.3.11", "@rspack/binding-win32-ia32-msvc": "1.3.11", "@rspack/binding-win32-x64-msvc": "1.3.11" } }, "sha512-BbMfZHqfH+CzFtZDg+v9nbKifJIJDUPD6KuoWlHq581koKvD3UMx6oVrj9w13JvO2xWNPeHclmqWAFgoD7faEQ=="],
 
-    "@rspack/binding-darwin-arm64": ["@rspack/binding-darwin-arm64@1.3.10", "", { "os": "darwin", "cpu": "arm64" }, "sha512-0k/j8OeMSVm5u5Nzckp9Ie7S7hprnvNegebnGr+L6VCyD7sMqm4m+4rLHs99ZklYdH0dZtY2+LrzrtjUZCqfew=="],
+    "@rspack/binding-darwin-arm64": ["@rspack/binding-darwin-arm64@1.3.11", "", { "os": "darwin", "cpu": "arm64" }, "sha512-sGoFDXYNinubhEiPSjtA/ua3qhMj6VVBPTSDvprZj+MT18YV7tQQtwBpm+8sbqJ1P5y+a3mzsP3IphRWyIQyXw=="],
 
-    "@rspack/binding-darwin-x64": ["@rspack/binding-darwin-x64@1.3.10", "", { "os": "darwin", "cpu": "x64" }, "sha512-jOyqYW/18cgxw60wK5oqJvM194pbD4H99xaif89McNtLkH3npFvBkXBHVWWuOHGoXNX0LhRpHcI89p9b9THQZQ=="],
+    "@rspack/binding-darwin-x64": ["@rspack/binding-darwin-x64@1.3.11", "", { "os": "darwin", "cpu": "x64" }, "sha512-4zgOkCLxhp4Ki98GuDaZgz4exXcE4+sgvXY/xA/A5FGPVRbfQLQ5psSOk0F/gvMua1r15E66loQRJpuzUK6bTA=="],
 
-    "@rspack/binding-linux-arm64-gnu": ["@rspack/binding-linux-arm64-gnu@1.3.10", "", { "os": "linux", "cpu": "arm64" }, "sha512-zhF5ZNaT/7pxrm8xD3dWG1b4x+FO3LbVeZZG448CjpSo5T57kPD+SaGUU1GcPpn6mexf795x0SVS49aH7/e3Dg=="],
+    "@rspack/binding-linux-arm64-gnu": ["@rspack/binding-linux-arm64-gnu@1.3.11", "", { "os": "linux", "cpu": "arm64" }, "sha512-NIOaIfYUmJs1XL4lbGVtcMm1KlA/6ZR6oAbs2ekofKXtJYAFQgnLTf7ZFmIwVjS0mP78BmeSNcIM6pd2w5id4w=="],
 
-    "@rspack/binding-linux-arm64-musl": ["@rspack/binding-linux-arm64-musl@1.3.10", "", { "os": "linux", "cpu": "arm64" }, "sha512-o3x7IrOSCHK6lcRvdZgsSuOG1CHRQR00xiyLW7kkWmNm7t417LC9xdFWKIK62C5fKXGC5YcTbUkDMnQujespkg=="],
+    "@rspack/binding-linux-arm64-musl": ["@rspack/binding-linux-arm64-musl@1.3.11", "", { "os": "linux", "cpu": "arm64" }, "sha512-CRRAQ379uzA2QfD9HHNtxuuqzGksUapMVcTLY5NIXWfvHLUJShdlSJQv3UQcqgAJNrMY7Ex1PnoQs1jZgUiqZA=="],
 
-    "@rspack/binding-linux-x64-gnu": ["@rspack/binding-linux-x64-gnu@1.3.10", "", { "os": "linux", "cpu": "x64" }, "sha512-FMSi28VZhXMr15picOHFynULhqZ/FODPxRIS6uNrvPRYcbNuiO1v+VHV6X88mhOMmJ/aVF6OwjUO/o2l1FVa9Q=="],
+    "@rspack/binding-linux-x64-gnu": ["@rspack/binding-linux-x64-gnu@1.3.11", "", { "os": "linux", "cpu": "x64" }, "sha512-k3OyvLneX2ZeL8z/OzPojpImqy6PgqKJD+NtOvcr/TgbgADHZ3xQttf6B2X+qnZMAgOZ+RTeTkOFrvsg9AEKmA=="],
 
-    "@rspack/binding-linux-x64-musl": ["@rspack/binding-linux-x64-musl@1.3.10", "", { "os": "linux", "cpu": "x64" }, "sha512-e0xbY9SlbRGIFz41v1yc0HfREvmgMnLV1bLmTSPK8wI2suIEJ7iYYqsocHOAOk86qLZcxVrTnL6EjUcNaRTWlg=="],
+    "@rspack/binding-linux-x64-musl": ["@rspack/binding-linux-x64-musl@1.3.11", "", { "os": "linux", "cpu": "x64" }, "sha512-2agcELyyQ95jWGCW0YWD0TvAcN40yUjmxn9NXQBLHPX5Eb07NaHXairMsvV9vqQsPsq0nxxfd9Wsow18Y5r/Hw=="],
 
-    "@rspack/binding-win32-arm64-msvc": ["@rspack/binding-win32-arm64-msvc@1.3.10", "", { "os": "win32", "cpu": "arm64" }, "sha512-YHJPvEujWeWjU6EUF6sDpaec9rsOtKVvy16YCtGaxRpDQXqfuxibnp6Ge0ZTTrY+joRiWehRA9OUI+3McqI+QA=="],
+    "@rspack/binding-win32-arm64-msvc": ["@rspack/binding-win32-arm64-msvc@1.3.11", "", { "os": "win32", "cpu": "arm64" }, "sha512-sjGoChazu0krigT/LVwGUsgCv3D3s/4cR/3P4VzuDNVlb4pbh1CDa642Fr0TceqAXCeKW5GiL/EQOfZ4semtcQ=="],
 
-    "@rspack/binding-win32-ia32-msvc": ["@rspack/binding-win32-ia32-msvc@1.3.10", "", { "os": "win32", "cpu": "ia32" }, "sha512-2iwSBzVBC89ZSk56MYwgirh3bda2WKmL9I3qPajiTEivChXpX7jp83jAtGE6CPqPYcccYz6nrURTHNUZhqXxVw=="],
+    "@rspack/binding-win32-ia32-msvc": ["@rspack/binding-win32-ia32-msvc@1.3.11", "", { "os": "win32", "cpu": "ia32" }, "sha512-tjywW84oQLSqRmvQZ+fXP7e3eNmjScYrlWEPAQFjf08N19iAJ9UOGuuFw8Fk5ZmrlNZ2Qo9ASSOI7Nnwx2aZYg=="],
 
-    "@rspack/binding-win32-x64-msvc": ["@rspack/binding-win32-x64-msvc@1.3.10", "", { "os": "win32", "cpu": "x64" }, "sha512-ehWJ9Y5Zezj/+uJpiWbt29RZaRIM00f91PWuabM6/sKmHJhdCEE21u5iI3B8DeW/EjJsH8zkI69YYAxJWwGn9A=="],
+    "@rspack/binding-win32-x64-msvc": ["@rspack/binding-win32-x64-msvc@1.3.11", "", { "os": "win32", "cpu": "x64" }, "sha512-pPy3yU6SAMfEPY7ki1KAetiDFfRbkYMiX3F89P9kX01UAePkLRNsjacHF4w7N3EsBsWn1FlGaYZdlzmOI5pg2Q=="],
 
     "@rspack/core": ["@rspack/core@1.3.11", "", { "dependencies": { "@module-federation/runtime-tools": "0.13.1", "@rspack/binding": "1.3.11", "@rspack/lite-tapable": "1.0.1", "caniuse-lite": "^1.0.30001718" }, "peerDependencies": { "@swc/helpers": ">=0.5.1" }, "optionalPeers": ["@swc/helpers"] }, "sha512-aSYPtT1gum5MCfcFANdTroJ4JwzozuL3wX0twMGNAB7amq6+nZrbsUKWjcHgneCeZdahxzrKdyYef3FHaJ7lEA=="],
 
@@ -589,8 +589,6 @@
 
     "@humanfs/node/@humanwhocodes/retry": ["@humanwhocodes/retry@0.3.1", "", {}, "sha512-JBxkERygn7Bv/GbN5Rv8Ul6LVknS+5Bp6RgDC/O8gEBU/yeH5Ui5C/OlWrTb6qct7LjjfT6Re2NxB0ln0yYybA=="],
 
-    "@rspack/core/@rspack/binding": ["@rspack/binding@1.3.11", "", { "optionalDependencies": { "@rspack/binding-darwin-arm64": "1.3.11", "@rspack/binding-darwin-x64": "1.3.11", "@rspack/binding-linux-arm64-gnu": "1.3.11", "@rspack/binding-linux-arm64-musl": "1.3.11", "@rspack/binding-linux-x64-gnu": "1.3.11", "@rspack/binding-linux-x64-musl": "1.3.11", "@rspack/binding-win32-arm64-msvc": "1.3.11", "@rspack/binding-win32-ia32-msvc": "1.3.11", "@rspack/binding-win32-x64-msvc": "1.3.11" } }, "sha512-BbMfZHqfH+CzFtZDg+v9nbKifJIJDUPD6KuoWlHq581koKvD3UMx6oVrj9w13JvO2xWNPeHclmqWAFgoD7faEQ=="],
-
     "@tailwindcss/node/lightningcss": ["lightningcss@1.30.1", "", { "dependencies": { "detect-libc": "^2.0.3" }, "optionalDependencies": { "lightningcss-darwin-arm64": "1.30.1", "lightningcss-darwin-x64": "1.30.1", "lightningcss-freebsd-x64": "1.30.1", "lightningcss-linux-arm-gnueabihf": "1.30.1", "lightningcss-linux-arm64-gnu": "1.30.1", "lightningcss-linux-arm64-musl": "1.30.1", "lightningcss-linux-x64-gnu": "1.30.1", "lightningcss-linux-x64-musl": "1.30.1", "lightningcss-win32-arm64-msvc": "1.30.1", "lightningcss-win32-x64-msvc": "1.30.1" } }, "sha512-xi6IyHML+c9+Q3W0S4fCQJOym42pyurFiJUHEcEyHS0CeKzia4yZDEsLlqOFykxOdHpNy0NmvVO31vcSqAxJCg=="],
 
     "@tailwindcss/oxide-wasm32-wasi/@emnapi/core": ["@emnapi/core@1.4.3", "", { "dependencies": { "@emnapi/wasi-threads": "1.0.2", "tslib": "^2.4.0" }, "bundled": true }, "sha512-4m62DuCE07lw01soJwPiBGC0nAww0Q+RY70VZ+n49yDIO13yyinhbWCeNnaob0lakDtWQzSdtNWzJeOJt2ma+g=="],
@@ -614,24 +612,6 @@
     "lightningcss/detect-libc": ["detect-libc@2.0.3", "", {}, "sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw=="],
 
     "micromatch/picomatch": ["picomatch@2.3.1", "", {}, "sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA=="],
-
-    "@rspack/core/@rspack/binding/@rspack/binding-darwin-arm64": ["@rspack/binding-darwin-arm64@1.3.11", "", { "os": "darwin", "cpu": "arm64" }, "sha512-sGoFDXYNinubhEiPSjtA/ua3qhMj6VVBPTSDvprZj+MT18YV7tQQtwBpm+8sbqJ1P5y+a3mzsP3IphRWyIQyXw=="],
-
-    "@rspack/core/@rspack/binding/@rspack/binding-darwin-x64": ["@rspack/binding-darwin-x64@1.3.11", "", { "os": "darwin", "cpu": "x64" }, "sha512-4zgOkCLxhp4Ki98GuDaZgz4exXcE4+sgvXY/xA/A5FGPVRbfQLQ5psSOk0F/gvMua1r15E66loQRJpuzUK6bTA=="],
-
-    "@rspack/core/@rspack/binding/@rspack/binding-linux-arm64-gnu": ["@rspack/binding-linux-arm64-gnu@1.3.11", "", { "os": "linux", "cpu": "arm64" }, "sha512-NIOaIfYUmJs1XL4lbGVtcMm1KlA/6ZR6oAbs2ekofKXtJYAFQgnLTf7ZFmIwVjS0mP78BmeSNcIM6pd2w5id4w=="],
-
-    "@rspack/core/@rspack/binding/@rspack/binding-linux-arm64-musl": ["@rspack/binding-linux-arm64-musl@1.3.11", "", { "os": "linux", "cpu": "arm64" }, "sha512-CRRAQ379uzA2QfD9HHNtxuuqzGksUapMVcTLY5NIXWfvHLUJShdlSJQv3UQcqgAJNrMY7Ex1PnoQs1jZgUiqZA=="],
-
-    "@rspack/core/@rspack/binding/@rspack/binding-linux-x64-gnu": ["@rspack/binding-linux-x64-gnu@1.3.11", "", { "os": "linux", "cpu": "x64" }, "sha512-k3OyvLneX2ZeL8z/OzPojpImqy6PgqKJD+NtOvcr/TgbgADHZ3xQttf6B2X+qnZMAgOZ+RTeTkOFrvsg9AEKmA=="],
-
-    "@rspack/core/@rspack/binding/@rspack/binding-linux-x64-musl": ["@rspack/binding-linux-x64-musl@1.3.11", "", { "os": "linux", "cpu": "x64" }, "sha512-2agcELyyQ95jWGCW0YWD0TvAcN40yUjmxn9NXQBLHPX5Eb07NaHXairMsvV9vqQsPsq0nxxfd9Wsow18Y5r/Hw=="],
-
-    "@rspack/core/@rspack/binding/@rspack/binding-win32-arm64-msvc": ["@rspack/binding-win32-arm64-msvc@1.3.11", "", { "os": "win32", "cpu": "arm64" }, "sha512-sjGoChazu0krigT/LVwGUsgCv3D3s/4cR/3P4VzuDNVlb4pbh1CDa642Fr0TceqAXCeKW5GiL/EQOfZ4semtcQ=="],
-
-    "@rspack/core/@rspack/binding/@rspack/binding-win32-ia32-msvc": ["@rspack/binding-win32-ia32-msvc@1.3.11", "", { "os": "win32", "cpu": "ia32" }, "sha512-tjywW84oQLSqRmvQZ+fXP7e3eNmjScYrlWEPAQFjf08N19iAJ9UOGuuFw8Fk5ZmrlNZ2Qo9ASSOI7Nnwx2aZYg=="],
-
-    "@rspack/core/@rspack/binding/@rspack/binding-win32-x64-msvc": ["@rspack/binding-win32-x64-msvc@1.3.11", "", { "os": "win32", "cpu": "x64" }, "sha512-pPy3yU6SAMfEPY7ki1KAetiDFfRbkYMiX3F89P9kX01UAePkLRNsjacHF4w7N3EsBsWn1FlGaYZdlzmOI5pg2Q=="],
 
     "@tailwindcss/node/lightningcss/lightningcss-darwin-arm64": ["lightningcss-darwin-arm64@1.30.1", "", { "os": "darwin", "cpu": "arm64" }, "sha512-c8JK7hyE65X1MHMN+Viq9n11RRC7hgin3HhYKhrMyaXflk5GVplZ60IxyoVtzILeKr+xAJwg6zK6sjTBJ0FKYQ=="],
 
