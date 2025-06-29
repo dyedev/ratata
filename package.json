@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@eslint/js": "9.30.0",
-    "@rsbuild/core": "1.4.1",
+    "@rsbuild/core": "1.4.2",
     "@rsbuild/plugin-svelte": "1.0.10",
     "@rspack/binding": "1.4.1",
     "@sveltejs/vite-plugin-svelte": "5.1.0",
