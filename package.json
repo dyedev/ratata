@@ -16,7 +16,7 @@
     "@eslint/js": "9.30.0",
     "@rsbuild/core": "1.4.3",
     "@rsbuild/plugin-svelte": "1.0.10",
-    "@rspack/binding": "1.4.1",
+    "@rspack/binding": "1.4.3",
     "@sveltejs/vite-plugin-svelte": "5.1.0",
     "@sveltejs/vite-plugin-svelte-inspector": "4.0.1",
     "@tailwindcss/postcss": "4.1.11",
