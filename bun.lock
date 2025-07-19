@@ -9,7 +9,7 @@
       },
       "devDependencies": {
         "@eslint/js": "9.31.0",
-        "@rsbuild/core": "1.4.7",
+        "@rsbuild/core": "1.4.8",
         "@rsbuild/plugin-svelte": "1.0.10",
         "@rspack/binding": "1.4.6",
         "@sveltejs/vite-plugin-svelte": "6.0.0",
@@ -193,7 +193,7 @@
 
     "@rollup/rollup-win32-x64-msvc": ["@rollup/rollup-win32-x64-msvc@4.44.2", "", { "os": "win32", "cpu": "x64" }, "sha512-3+QZROYfJ25PDcxFF66UEk8jGWigHJeecZILvkPkyQN7oc5BvFo4YEXFkOs154j3FTMp9mn9Ky8RCOwastduEA=="],
 
-    "@rsbuild/core": ["@rsbuild/core@1.4.7", "", { "dependencies": { "@rspack/core": "1.4.8", "@rspack/lite-tapable": "~1.0.1", "@swc/helpers": "^0.5.17", "core-js": "~3.44.0", "jiti": "^2.4.2" }, "bin": { "rsbuild": "bin/rsbuild.js" } }, "sha512-mYvMYlCKUQAfz7x7GJnD6lBsVBfUSEAfrZLxkDQ0F3w7If9cQpHWLWZWdRmcFFy3Pzns1Edxn0st1nAmcFhRJQ=="],
+    "@rsbuild/core": ["@rsbuild/core@1.4.8", "", { "dependencies": { "@rspack/core": "1.4.8", "@rspack/lite-tapable": "~1.0.1", "@swc/helpers": "^0.5.17", "core-js": "~3.44.0", "jiti": "^2.4.2" }, "bin": { "rsbuild": "bin/rsbuild.js" } }, "sha512-IJhpLl8lrp5ynlf04V5l7rMrVTNuGLG36ZDadHiBIC5qLRGSS3rMF8cVLSkSA6qM1OiRlPpMgwQbqFYh325RvQ=="],
 
     "@rsbuild/plugin-svelte": ["@rsbuild/plugin-svelte@1.0.10", "", { "dependencies": { "svelte-loader": "3.2.4", "svelte-preprocess": "^6.0.3" }, "peerDependencies": { "@rsbuild/core": "1.x" } }, "sha512-505FK9A+AceRJZkczmeIjokxppZEzSl8i+hl0YtvvBm3+m3ZeELkJ0+rfuqxZmzRXY6POwiaNb1H3Bc8dS2fqA=="],
 
