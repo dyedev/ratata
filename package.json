@@ -13,14 +13,14 @@
     "preview": "rsbuild preview"
   },
   "devDependencies": {
-    "@eslint/js": "9.39.5",
+    "@eslint/js": "10.0.1",
     "@rsbuild/core": "1.7.6",
     "@rsbuild/plugin-svelte": "1.1.2",
     "@rspack/binding": "1.7.12",
     "@sveltejs/vite-plugin-svelte": "6.2.4",
     "@sveltejs/vite-plugin-svelte-inspector": "5.0.2",
     "@tailwindcss/postcss": "4.3.3",
-    "eslint": "9.39.5",
+    "eslint": "10.10.0",
     "eslint-plugin-svelte": "3.22.0",
     "globals": "16.5.0",
     "postcss": "8.5.25",
